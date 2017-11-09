@@ -25,7 +25,8 @@ var wordChoice = "_";
 var letterChoice = [];
 
 var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "m", "n", "o", "p",
-    "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+];
 
 var wins = 0;
 
@@ -38,18 +39,18 @@ var guesses = 15;
 console.log(myWord);
 
 function choiceWord() {
-   
 
 
 
- 
+
+
 
     document.getElementById("userText").textContent = myWord;
     console.log("hi");
 }
 
-function fillLetters (){
-    
+function fillLetters() {
+
 }
 
 function displayOnScreen() {
@@ -63,7 +64,7 @@ function displayOnScreen() {
 
     document.getElementById("userText").textContent = text;
 
-    
+
 
 }
 
