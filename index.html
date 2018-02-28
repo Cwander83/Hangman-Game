@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Hangman-Game</title>
-  
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -18,15 +18,15 @@
     </div>
 
     <div class="row">
-      
+
       <div class="col-sm-6 iconcol">
-      <div onload="startUp()">
-        <input id="letter" type="text">
-        <input type="button" value="letter" onClick="letter()"/>
-        <p id="answer"></p>
-        <p id="counter"></p>
-        <p id="stat"></p> 
-      </div>
+        <div onload="startUp()">
+          <input id="letter" type="text">
+          <input type="button" value="letter" onClick="letter()" />
+          <p id="answer"></p>
+          <p id="counter"></p>
+          <p id="stat"></p>
+        </div>
 
       </div>
       <div class="col-sm-3 gamecol">
@@ -38,19 +38,17 @@
             <b>8</b> Star Wars</h5>
           <h5>characters of episode 4-6</h5>
 
-          <h5>Your Guess:<span id="userText"></span></h5>
-          
+          <h5>Your Guess:
+            <span id="userText"></span>
+          </h5>
+
         </div>
       </div>
       <div class="col-sm-3"></div>
-
     </div>
-
   </div>
 
   <script type="text/javascript" src="assets/javascript/game2.js"></script>
   </script>
-
-
-
 </body>
+</html>
